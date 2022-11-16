@@ -1,3 +1,5 @@
+<import src="../../template/template1.wxml" />
+<template is="feeds-card-header-info" data="{{item}}"></template>
 <view class="{{styles.banner}}" wx:if="{{!!list.length}}">
     <swiper class="{{styles['banner__swiper']}}" indicator-dots="{{false}}" current="{{current}}" autoplay circular
         bindchange="onSwiperChange">

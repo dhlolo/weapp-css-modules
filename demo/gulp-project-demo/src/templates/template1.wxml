@@ -1,0 +1,8 @@
+<template name="feeds-card-header-info">
+    <view class="{{item ? styles.banner : styles.otherBanner}}">
+        <block wx:if="{{item}}">
+            <view wx:if="{{item.participateCount}}">{{item.participateCount}}人跟团</view>
+            <view wx:if="{{item.participateCount && item.visitCountStr}}" class="{{styles.numberSplit}}" />
+        </block>
+    </view>
+</template>

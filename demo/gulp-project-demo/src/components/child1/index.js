@@ -5,6 +5,7 @@ Component({
     data: {
         styles: styles,
         current: 0,
+        item: {},
         list: [
             {
                 "img": "https://img20.360buyimg.com/ling/jfs/t1/134524/9/15501/294288/5fa9f86aEadd02f8a/906f144f4748d16c.jpg",
